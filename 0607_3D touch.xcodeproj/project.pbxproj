@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27243BD81E8F4BCC003956F9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27243BD51E8F4BCC003956F9 /* FirstViewController.m */; };
+		27243BD91E8F4BCD003956F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27243BD71E8F4BCC003956F9 /* SecondViewController.m */; };
 		3A7DDA951D065E170080479E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DDA941D065E170080479E /* main.m */; };
 		3A7DDA981D065E170080479E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DDA971D065E170080479E /* AppDelegate.m */; };
 		3A7DDA9B1D065E170080479E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DDA9A1D065E170080479E /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27243BD41E8F4BCC003956F9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		27243BD51E8F4BCC003956F9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		27243BD61E8F4BCC003956F9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		27243BD71E8F4BCC003956F9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3A7DDA901D065E170080479E /* 0607_3D touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0607_3D touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7DDA941D065E170080479E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A7DDA961D065E170080479E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 				3A7DDA971D065E170080479E /* AppDelegate.m */,
 				3A7DDA991D065E170080479E /* ViewController.h */,
 				3A7DDA9A1D065E170080479E /* ViewController.m */,
+				27243BD41E8F4BCC003956F9 /* FirstViewController.h */,
+				27243BD51E8F4BCC003956F9 /* FirstViewController.m */,
+				27243BD61E8F4BCC003956F9 /* SecondViewController.h */,
+				27243BD71E8F4BCC003956F9 /* SecondViewController.m */,
 				3A7DDA9C1D065E170080479E /* Main.storyboard */,
 				3A7DDA9F1D065E170080479E /* Assets.xcassets */,
 				3A7DDAA11D065E170080479E /* LaunchScreen.storyboard */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27243BD91E8F4BCD003956F9 /* SecondViewController.m in Sources */,
 				3A7DDA9B1D065E170080479E /* ViewController.m in Sources */,
 				3A7DDA981D065E170080479E /* AppDelegate.m in Sources */,
 				3A7DDA951D065E170080479E /* main.m in Sources */,
+				27243BD81E8F4BCC003956F9 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "0607_3D touch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NamiBank.-607-3D-touch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "0607_3D touch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NamiBank.-607-3D-touch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +314,7 @@
 				3A7DDAA91D065E170080479E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
