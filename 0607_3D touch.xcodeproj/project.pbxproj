@@ -15,6 +15,7 @@
 		3A7DDA9E1D065E170080479E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7DDA9C1D065E170080479E /* Main.storyboard */; };
 		3A7DDAA01D065E170080479E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7DDA9F1D065E170080479E /* Assets.xcassets */; };
 		3A7DDAA31D065E170080479E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7DDAA11D065E170080479E /* LaunchScreen.storyboard */; };
+		4B72E2641FECDD1B00F1E89B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B72E2631FECDD1B00F1E89B /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		3A7DDA9F1D065E170080479E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7DDAA21D065E170080479E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A7DDAA41D065E170080479E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B72E2621FECDD1B00F1E89B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4B72E2631FECDD1B00F1E89B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				27243BD51E8F4BCC003956F9 /* FirstViewController.m */,
 				27243BD61E8F4BCC003956F9 /* SecondViewController.h */,
 				27243BD71E8F4BCC003956F9 /* SecondViewController.m */,
+				4B72E2621FECDD1B00F1E89B /* DetailViewController.h */,
+				4B72E2631FECDD1B00F1E89B /* DetailViewController.m */,
 				3A7DDA9C1D065E170080479E /* Main.storyboard */,
 				3A7DDA9F1D065E170080479E /* Assets.xcassets */,
 				3A7DDAA11D065E170080479E /* LaunchScreen.storyboard */,
@@ -120,6 +125,7 @@
 				TargetAttributes = {
 					3A7DDA8F1D065E170080479E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 98GQQ9Q7G5;
 					};
 				};
 			};
@@ -164,6 +170,7 @@
 				3A7DDA981D065E170080479E /* AppDelegate.m in Sources */,
 				3A7DDA951D065E170080479E /* main.m in Sources */,
 				27243BD81E8F4BCC003956F9 /* FirstViewController.m in Sources */,
+				4B72E2641FECDD1B00F1E89B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -264,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -275,10 +282,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98GQQ9Q7G5;
 				INFOPLIST_FILE = "0607_3D touch/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NamiBank.-607-3D-touch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bangbang.professional;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -287,10 +295,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98GQQ9Q7G5;
 				INFOPLIST_FILE = "0607_3D touch/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NamiBank.-607-3D-touch";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bangbang.professional;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

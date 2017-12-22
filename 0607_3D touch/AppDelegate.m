@@ -119,6 +119,8 @@
         SecondViewController *second = [[SecondViewController alloc] init];
         UINavigationController *nav = (UINavigationController *)self.window.rootViewController;
         [nav pushViewController:second animated:YES];
+    }else if ([shortcutItem.type isEqualToString:@"com.mycompany.myapp.openfavorites"]) {
+        NSLog(@"favorites");
     }
 }
 
